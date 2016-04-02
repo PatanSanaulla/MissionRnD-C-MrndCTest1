@@ -28,6 +28,9 @@ Difficulty : Hard
 #include <stdio.h>
 
 char * concat_4strings(char *s1, char *s2, char *s3, char *s4){
-	//Return the new string created.
+	char *f;
+	int i = 1;
+	while (s1[i] != '/0'){ i++; }
+	if (strncmp(s1, s2, i) == 0){ f = s2; }
 	return NULL;
 }
